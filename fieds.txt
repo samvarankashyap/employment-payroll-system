@@ -1,0 +1,73 @@
+"title" => $_POST['title'],
+    "surname" => $_POST['surname'],
+"firstname" =>$_POST['firstname'],
+"middlename" => $_POST['middlename'],
+"gender" => $_POST['gender'],
+"fathername" => $_POST['fathername'],
+"mothername" => $_POST['mothername'],
+"dob" => $_POST['dob'], //date of birth
+"address" => $_POST['address'],
+"postalcode" => $_POST['postalcode'],
+"city" => $_POST['city'],
+"state" => $_POST['state'],
+"religion" => $_POST['religion'],
+"caste" => $_POST['caste'],
+"photo" => $_POST['photo'],
+"lti" => $_POST['lti'], // left the institute?
+"fred" => $_POST['fred'],// Faculty Relieved Date
+"frjd" => $_POST['frjd'],// Faculty Rejoining Date
+"adhaar" => $_POST['adhaar'],
+"pan" => $_POST['pan'],
+"std" => $_POST['std'],
+"landine" => $_POST['landline'],
+"mobile" => $_POST['mobile'],
+"email" => $_POST['email'],
+"fax	" => $_POST['fax'],
+"designation" => $_POST['designation'],
+"appointmenttype" => $_POST['appointmenttype'],
+"programme" => $_POST['programme'],
+"course" => $_POST['course'],
+"da" => $_POST['da'],
+"ftorpt" => $_POST['ftorpt'], // full time or part time 
+"doj" => $_POST['doj'], // date of joining
+"hra" => $_POST['hra'],
+"gross" => $_POST['gross'],
+"payscale" => $_POST['payscale'],
+"pf" => $_POST['pf'],
+"allowance" => $_POST['allowance'],
+"qual1" => $_POST['qual1'],//quaification1
+"yopq1" => $_POST['yopq1'],// year of passing q1 
+"pomq1" => $_POST['pomq1'],//percent of marks q1
+"mosq1" => $_POST['mosq1'],// mode of study q1
+"noiq1" => $_POST['noiq1'],// name of Institute q1
+"nouq1" => $_POST['nouq1'],// name of university q1
+"qual2" => $_POST['qual2'],//quaification2
+"yopq2" => $_POST['yopq2'],// year of passing q2 
+"pomq2" => $_POST['pomq2'],//percent of marks q2
+"mosq2" => $_POST['mosq2'],// mode of study q2
+"noiq2" => $_POST['noiq2'],// name of Institute q2
+"nouq2" => $_POST['nouq2'],// name of university q2
+"qual3" => $_POST['qual3'],//quaification3
+"yopq3" => $_POST['yopq3'],// year of passing q3 
+"pomq3" => $_POST['pomq3'],//percent of marks q3
+"mosq3" => $_POST['mosq3'],// mode of study q3
+"noiq3" => $_POST['noiq3'],// name of Institute q3
+"nouq3" => $_POST['nouq3'],// name of university q3
+"te" => $_POST['te'], // teaching experience
+"tte" => $_POST['tte'],// total teaching experience
+"re" => $_POST['re'], // research experience 
+"bankac" => $_POST['bankac'],// bank account no 
+"patents" => $_POST['patents'],
+"isph" => $_POST['isph'], // is physically handicapped
+
+
+
+
+
+
+
+queryyyy
+
+
+
+CREATE TABLE `test`.`empdetails` (`title` VARCHAR(5) NOT NULL, `surname` VARCHAR(20) NOT NULL, `firstname` VARCHAR(20) NOT NULL, `middlename` VARCHAR(20) NOT NULL, `gender` VARCHAR(6) NOT NULL, `fathername` VARCHAR(20) NOT NULL, `mothername` VARCHAR(20) NOT NULL, `dob` DATE NOT NULL, `address` VARCHAR(300) NOT NULL, `postalcode` VARCHAR(10) NOT NULL, `city` VARCHAR(20) NOT NULL, `state` VARCHAR(20) NOT NULL, `religion` VARCHAR(20) NOT NULL, `caste` VARCHAR(20) NOT NULL, `photo` VARCHAR(300) NOT NULL, `lti` VARCHAR(5) NOT NULL, `fred` DATE NOT NULL, `frjd` DATE NOT NULL, `adhaar` VARCHAR(20) NOT NULL, `pan` VARCHAR(20) NOT NULL, `std` VARCHAR(10) NOT NULL, `landline` VARCHAR(20) NOT NULL, `mobile` VARCHAR(20) NOT NULL, `email` VARCHAR(30) NOT NULL, `fax` VARCHAR(20) NOT NULL, `designation` VARCHAR(20) NOT NULL, `appiontmenttype` VARCHAR(20) NOT NULL, `programme` VARCHAR(50) NOT NULL, `course` VARCHAR(50) NOT NULL, `da` INT(5) NOT NULL, `ftorpt` VARCHAR(20) NOT NULL, `doj` DATE NOT NULL, `hra` INT(20) NOT NULL, `gross` INT(20) NOT NULL, `payscale` VARCHAR(20) NOT NULL, `pf` INT(20) NOT NULL, `allowance` INT(20) NOT NULL, `qual1` VARCHAR(20) NOT NULL, `yopq1` VARCHAR(20) NOT NULL, `pomq1` VARCHAR(20) NOT NULL, `mosq1` VARCHAR(20) NOT NULL, `noiq1` VARCHAR(20) NOT NULL, `nouq1` VARCHAR(20) NOT NULL, `qual2` VARCHAR(20) NOT NULL, `yopq2` VARCHAR(20) NOT NULL, `pomq2` VARCHAR(20) NOT NULL, `mosq2` VARCHAR(20) NOT NULL, `noiq2` VARCHAR(20) NOT NULL, `nouq2` VARCHAR(20) NOT NULL, `qual3` VARCHAR(20) NOT NULL, `yopq3` VARCHAR(20) NOT NULL, `pomq3` VARCHAR(20) NOT NULL, `mosq3` VARCHAR(20) NOT NULL, `noiq3` VARCHAR(20) NOT NULL, `nouq3` VARCHAR(20) NOT NULL, `te` INT(10) NOT NULL, `tte` INT(10) NOT NULL, `re` INT(10) NOT NULL, `bankac` VARCHAR(30) NOT NULL, `patents` VARCHAR(500) NOT NULL, `isph` VARCHAR(5) NOT NULL) ENGINE = InnoDB;

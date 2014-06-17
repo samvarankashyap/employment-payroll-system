@@ -1,0 +1,46 @@
+Loss of pay 
+current month chek cheyali 
+if new month and year 
+create table 
+else 
+same table ie same table with dateyear name ex: jan13
+
+make a monthly salaries anni oka table lo petteskundam 
+
+add loss of pay lo 
+take date as input  store it in another table with emp name and leave date 
+any employee who registered will have the leave table created initiallyyyyy
+
+lets call it "leave table"
+add loss of pay to thay emplyee to that date 
+
+
+
+eavaranna leave pedthay aa month lo add cheddam 
+new month ki new table 
+
+
+
+
+
+
+
+
+
+
+This is for genrating payslips for all 
+
+give option to select month year 
+and click on submit 
+and 
+we get all payslips of that month and year 
+
+aa month and year lo anni payslips generate avthayi 
+
+
+
+
+
+This is for genrating individual ====> just display contents of the payslip table 
+
+
