@@ -5,7 +5,6 @@
 
 <body>
 
-<h6 align="right">version:2</h6> 
 <div align="center" style="position:relative;" >
 <table width="300" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 <th><h1 align="center" > Welcome to Employee Payroll System </h1></th>
