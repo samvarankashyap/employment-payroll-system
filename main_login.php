@@ -7,7 +7,7 @@
 
 <div align="center" style="position:relative;" >
 <table width="300" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
-<th><h1 align="center" > Welcome to Employee Payroll System </h1></th>
+<th><h1 align="center" > Welcome to Employee Payroll System(Version:2) </h1></th>
 <tr>
 <form name="form1" method="post" action="checklogin.php">
 <td>
