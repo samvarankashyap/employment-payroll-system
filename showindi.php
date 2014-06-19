@@ -17,7 +17,7 @@ td{font-family:Arial; color:black; font-size:14pt;}
 
 $host="localhost"; // Host name 
 $username="root"; // Mysql username 
-$password="root"; // Mysql password 
+$password="Openstack1"; // Mysql password
 $db_name="test"; // Database name 
 $tbl_name="empdetails"; // Table name 
 

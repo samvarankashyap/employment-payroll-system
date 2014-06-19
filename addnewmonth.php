@@ -19,7 +19,7 @@ $date= date('MY');
 
 $host="localhost"; // Host name 
 $username="root"; // Mysql username 
-$password="root"; // Mysql password 
+$password="Openstack1"; // Mysql password 
 $db_name="test"; // Database name 
 
 
